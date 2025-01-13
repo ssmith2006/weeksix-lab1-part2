@@ -68,5 +68,4 @@ let fiveMore = [
  }
 ];
 
-blogPosts.push(...fiveMore);
-render(blogPosts);
+render(fiveMore);
