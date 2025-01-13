@@ -15,15 +15,8 @@ let blogPosts = [
  }
 ];
 
-let blogPosts1 = [
-  {
-    id: 1,
-    title: "Blog Post 1",
-    author: "Author A",
-    date: "2023-11-15"
-  }
-];
-
+let blogPosts1 = [];
+ blogPosts1.push(blogPosts[0])
 
 function render(info) {
     let section = document.getElementById('blogPosts');
